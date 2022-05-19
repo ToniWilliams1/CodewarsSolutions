@@ -1,0 +1,15 @@
+/*
+Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+*/
+
+function digitize(n) {
+
+let reverse=  n.toString().split('').reverse('')
+let result = []
+
+for(let i = 0; i < reverse.length; i++) {
+  result.push(Number(reverse[i]))
+}
+  return result
+
+}
