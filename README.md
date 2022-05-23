@@ -2,7 +2,7 @@
 
 
 <h2> How It's Made: </h2>
-Tech used: JavaScript
+Tech used: ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 
 
