@@ -1,0 +1,13 @@
+/*
+Your task is to sum the differences between consecutive pairs in the array in descending order.
+*/
+
+function sumOfDifferences(arr) {
+ let newArr = arr.sort((a,b) => b - a)
+let sum = 0;
+for (let i = 0; i < newArr.length - 1; ++i) {
+    sum += newArr[i] - newArr[i + 1];
+  }
+  
+  return sum
+  }
