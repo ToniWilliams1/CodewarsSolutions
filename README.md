@@ -1,4 +1,6 @@
-# CodeWars-Challenges: Visit Here https://www.codewars.com/users/toniwilliams1
+# CodeWars Challenges
+
+ - [Visit Here:](https://www.codewars.com/users/toniwilliams1)
 
 
 <h2> How It's Made: </h2>
