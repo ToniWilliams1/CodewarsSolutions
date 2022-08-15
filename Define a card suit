@@ -11,6 +11,7 @@ Our deck (is preloaded):
 
 */
 
+
 function defineSuit(card) { 
 if (card.includes('♣')) { 
   return 'clubs'
