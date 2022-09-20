@@ -1,0 +1,13 @@
+/*
+Write a function which calculates the average of the numbers in a given list.
+*/
+
+function findAverage(array) {
+  
+ const sum = array.reduce((a,c) => a + c, 0) / array.length
+ if (array.length > 0) {
+    return sum
+  } else if (array.length == 0) {
+    return 0
+  }
+  }
