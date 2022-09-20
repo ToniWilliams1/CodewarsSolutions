@@ -1,0 +1,7 @@
+/*
+Write a function that finds the sum of all its arguments.
+*/
+
+function sum(...args) {
+return args.reduce((a,c) => a + c)
+}
