@@ -1,0 +1,9 @@
+/*
+Find the mean (average) of a list of numbers in an array.
+*/
+
+var findAverage = function (nums) {
+  let sum = nums.reduce((a,c) => a+c, 0)
+ let mean = sum / nums.length
+ return mean
+}
