@@ -1,4 +1,4 @@
-# CodeWars Challenges!
+# Code Wars Challenges!
 
  - [Visit My Profile Here](https://www.codewars.com/users/toniwilliams1)
 
