@@ -1,0 +1,7 @@
+/*
+Given an array of integers , Find the minimum sum which is obtained from summing each Two integers product .
+*/
+
+function minSum(arr) {
+return arr.sort((a,b) => a - b).reduce((acc, c) => acc + c * arr.pop(), 0)
+}
