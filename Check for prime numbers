@@ -1,0 +1,20 @@
+/*
+In this kata you will create a function to check a non-negative input to see if it is a prime number.
+
+The function will take in a number and will return True if it is a prime number and False if it is not.
+
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+*/
+
+function isPrime(num) {
+if (num <= 1) return false; 
+ //5 is larger than 1, so we continue with the function
+ if (num === 2) return true;
+ //5 is not 2, so we continue with the function
+ for (let i= 2; i < num; i++) {
+  if (num % i === 0) {
+  return false;
+   }
+ }
+ return true;
+}
