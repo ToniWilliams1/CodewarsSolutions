@@ -1,0 +1,16 @@
+/*
+Given a string or number write a function tea42 that takes as input a string or number and returns a string where every '2' charcter or digit has been replaced with a t.
+*/
+
+function tea42(input) {
+  let res = ''
+  const newInput = input.toString()
+  for(let i = 0; i < newInput.length; i++) {
+    if(newInput[i] == 2) {
+      res += 't'
+    } else {
+      res += newInput[i] 
+    }
+  }
+  return res
+};
