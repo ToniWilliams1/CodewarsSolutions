@@ -1,0 +1,15 @@
+/*
+Given an array of numbers and an index, return either the index of the smallest number that is larger than the element at the given index, or -1 if there is no such index ( or, where applicable, Nothing or a similarly empty value ).
+*/
+
+function leastLarger(a,i) {
+ let smaller = Infinity,
+ result = -1
+ for(let index = 0; index < a.length; index++){
+   if(a[index] > a[i] && a[index] < smaller){
+     smaller = a[index]
+     result = index
+   }
+ }
+  return result;
+}
