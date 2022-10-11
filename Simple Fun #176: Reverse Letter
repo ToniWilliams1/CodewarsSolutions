@@ -1,0 +1,15 @@
+/*
+Given a string str, reverse it and omit all non-alphabetic characters.
+*/
+
+function reverseLetter(str) {
+  let result = ""
+  //coding and coding..
+  let newStr = str.split('')
+  for (let i = 0; i < newStr.length; i++){
+if (newStr[i].length === 1 && newStr[i].match(/[a-z]/i)) {
+  result += newStr[i]
+}
+  }
+  return result.split('').reverse('').join('')
+}
