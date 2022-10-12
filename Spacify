@@ -1,0 +1,13 @@
+/*
+Modify the spacify function so that it returns the given string with spaces inserted between each character.
+*/
+
+function spacify(str) {
+  let newStr = str.split('')
+  let result = ''
+  
+  for (let i = 0; i < newStr.length; i++){
+       result += ` ${newStr[i]}`
+}  return result.slice(1)
+  }
+
