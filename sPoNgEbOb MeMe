@@ -1,0 +1,19 @@
+/*
+You need to create a function that converts the input into this format, with the output being the same string expect there is a pattern of uppercase and lowercase letters.
+*/
+
+function spongeMeme(sentence) {
+  
+  let newSentence = sentence.toLowerCase()
+  let result = ""
+  
+  for (let i = 0; i < newSentence.length; i++){
+    if (i % 2 === 0  ){
+      result += newSentence[i].toUpperCase()
+
+  } else {
+    result += newSentence[i]
+  }
+    }
+  return result
+  }
