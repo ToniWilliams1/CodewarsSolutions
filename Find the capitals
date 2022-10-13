@@ -1,0 +1,16 @@
+/*
+Write a function that takes a single string (word) as argument. The function must return an ordered list containing the indexes of all capital letters in the string.
+*/
+
+var capitals = function (word) {
+
+let newWord = word.split('')
+let result = [ ]
+
+for (let i = 0; i < newWord.length; i++){
+if (newWord[i] == newWord[i].toUpperCase()) {
+result.push(newWord.indexOf(newWord[i]))
+}
+}
+  return result
+  }
