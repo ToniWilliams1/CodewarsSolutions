@@ -1,0 +1,9 @@
+/*
+You received an array with two strings. Create a function that will return their product as a string. 
+*/
+
+function arrMultiply(arr){
+   //your solution
+  let result = arr[0] * arr[1]
+   return result.toString()
+}
