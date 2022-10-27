@@ -1,0 +1,8 @@
+/*
+Write a function that takes a string and an an integer n as parameters and returns a list of all words that are longer than n.
+*/
+
+function filterLongWords(sentence, n) {
+  let newSentence = sentence.split(' ')
+ return newSentence.filter(word => word.length > n)
+}
