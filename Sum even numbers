@@ -6,3 +6,8 @@ Only numbers without decimals like 4 or 4.0 can be even.
 The input is a sequence of numbers: integers and/or floats.
 */
 
+
+function sumEvenNumbers(input) {
+let arr = input.filter(input => input % 2 === 0 && Math.abs(input) )
+return arr.reduce((acc,c) => acc + c)
+}
