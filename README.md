@@ -3,7 +3,7 @@
  - [Visit My Profile Here](https://www.codewars.com/users/toniwilliams1)
 
 
-# Ranking - 6Kyu
+# Ranking - 5 kyu
 
 
 ## Lessons Learned: 
