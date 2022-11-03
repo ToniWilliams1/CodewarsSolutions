@@ -1,0 +1,20 @@
+/*
+We want to know the index of the vowels in a given word, for example, there are two vowels in the word super (the second and fourth letters).
+
+So given a string "super", we should return a list of [2, 4].
+*/
+
+function vowelIndices(word){
+  //your code here
+  let res = []
+  let str = word.split('')
+ 
+  for (let i = 0; i < str.length; i++){
+    if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i'|| str[i] === 'o'|| str[i] === 'u' || str[i] === 'y' || str[i] === 'A'|| str[i] === 'E'|| str[i] === 'I' || str[i] === 'O' || str[i] === 'U' || str[i] === 'Y'   ){
+ res.push(i+1)
+    }
+  }
+ 
+    return res
+ 
+}
