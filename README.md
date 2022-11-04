@@ -1,4 +1,4 @@
-# Code Wars Challenges!
+# Daily Codewars Challenges
 
 ## My Profile (see my overall rankings, authored challenges, and badges)
  [Visit Here](https://www.codewars.com/users/toniwilliams1)
