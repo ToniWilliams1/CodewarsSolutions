@@ -1,9 +1,11 @@
 # Code Wars Challenges!
 
- - [Visit My Profile Here](https://www.codewars.com/users/toniwilliams1)
+## My Profile
+ [Visit Here](https://www.codewars.com/users/toniwilliams1)
 
 
-# Ranking - 5 kyu
+# Ranking
+5 kyu
 
 
 ## Lessons Learned: 
