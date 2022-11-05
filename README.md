@@ -1,15 +1,10 @@
 # Daily Codewars Challenges
 
-# Stats Preview (As of 11/4/2022)
+## Stats Preview (as of 11/4/2022)
 <img width="432" alt="Screen Shot 2022-11-04 at 12 21 10 AM" src="https://user-images.githubusercontent.com/100317017/199886825-8b586afc-b42e-4958-87ac-b411ac67aa95.png">
 
-## My Profile (see my overall rankings, authored challenges, and badges.)
  [Visit](https://www.codewars.com/users/toniwilliams1)
 
-
-
-# Current Ranking
-5 kyu
 
 
 # Lessons Learned 
