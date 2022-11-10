@@ -1,0 +1,16 @@
+/*
+Write a program that outputs the top n elements from a list.
+*/
+
+function largest(n,xs){
+  let res = []
+  
+let arr = xs.sort((a,b) => a - b).reverse('')
+
+
+for (let i = 0 ; i < n; i++){
+  res.push(arr[i])
+}
+
+return res.reverse()
+  }
