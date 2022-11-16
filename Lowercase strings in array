@@ -1,0 +1,15 @@
+/*
+Create a function to lowercase all strings in an array. Non-string items should remain unchanged.
+*/
+
+function arrayLowerCase(arr) {
+  
+  // return array of strings in lowercase
+  //check if element is a string
+ //replace with lowercase string
+// return array in place with string lowercase
+
+  
+   return arr.map(x => typeof x == "string" ? x.toLowerCase() : x);
+  }
+  
