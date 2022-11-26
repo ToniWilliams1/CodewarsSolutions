@@ -1,4 +1,4 @@
-# Daily Codewars Challenges   
+# Codewars Solutions
 
 Languages trained: JavaScript
 
