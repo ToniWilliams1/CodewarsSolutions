@@ -1,0 +1,9 @@
+/*
+You will be given a sequence of objects representing data about developers who have signed up to attend the next coding meetup that you are organising.
+*/
+
+function getAverageAge(list) {
+  
+  const {ages} = {ages: list.map(a => a.age)}
+  return Math.round(ages.reduce((acc, c) => acc + c, 0 ) / list.length)
+  }
