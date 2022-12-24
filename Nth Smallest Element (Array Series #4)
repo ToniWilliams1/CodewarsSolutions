@@ -1,0 +1,17 @@
+/*
+Given an array/list of integers, find the Nth smallest element in the array.
+*/
+
+function nthSmallest(arr, pos){
+  //your code here
+  //sort the arrray from smallest to greatest
+  //grab the number thats at the nth element
+  //return that number
+  
+ let sorted = arr.sort((a, b) => a - b)
+ let compare = pos+1
+// //  //return sorted.find(num => sorted.indexOf(`${pos}`))
+// // return sorted[compare]
+// for (let i = 1; i < sorted.length; i++){
+// if (sorted[i] == sorted.indexOf(compare)){
+  return sorted[pos -1]
