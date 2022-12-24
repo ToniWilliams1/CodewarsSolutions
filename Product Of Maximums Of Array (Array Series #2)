@@ -1,0 +1,16 @@
+/*
+Given an array/list [] of integers , Find the product of the k maximal numbers.
+*/
+
+function maxProduct(numbers, size){
+  //your code here=]
+  //sort
+  //slice 2 highest
+  //multiply
+  //return
+  
+  let sorted = numbers.sort((a,b) => a-b)
+  
+  let nums = sorted.slice(-size)
+  return nums.reduce((acc,c) => acc * c)
+}
