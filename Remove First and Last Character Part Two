@@ -1,0 +1,28 @@
+/*
+This is a spin off of my first kata.
+
+You are given a string containing a sequence of character sequences separated by commas.
+
+Write a function which returns a new string containing the same character sequences except the first and the last ones but this time separated by spaces.
+
+If the input string is empty or the removal of the first and last items would cause the resulting string to be empty, return an empty value (represented as a generic value NULL in the examples below).
+*/
+
+function array(arr){
+//Good luck
+//check if there are more than 2 numbers in string
+  //slice method 
+  //split what is remaining by spaces 
+  
+  let newArr = arr.split(',')
+  if (newArr.length < 3 ){
+    return null
+  } else {
+const res = newArr.slice(1, -1)
+return res.join(' ')
+}
+  }
+
+
+//(array('4, 5, 6, 7') '5 6')
+//(array('5') NULL )
