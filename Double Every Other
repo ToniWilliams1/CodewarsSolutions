@@ -1,0 +1,16 @@
+/*
+Write a function that doubles every second integer in a list, starting from the left.
+*/
+
+function doubleEveryOther(a) {
+  //go through array
+  //get every other element
+  //double only that one
+  //return
+  
+  for(let i = 1; i < a.length; i+=2){
+  a[i] *= 2
+  
+    }
+  return a;
+}
