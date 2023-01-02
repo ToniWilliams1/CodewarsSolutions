@@ -1,0 +1,25 @@
+/*
+You have an array of numbers 1 through n (where 1 <= n <= 10). The array needs to be formatted correctly for the person reading the countdown of a spaceship launch.
+
+Unfortunately, the person reading the countdown only knows how to read strings. After the array is sorted correctly make sure it's in a format he can understand.
+
+Between each number should be a space and after the final number (n) should be the word 'liftoff!'
+*/
+
+function liftoff(instructions){
+  //sort the array of numbers in descending order
+  //turn the array back into a string, split it by " "
+  //add 'lift off' to the end
+  //return the string 
+  
+  let nums = instructions.sort((a, b) => b - a)
+  
+  return nums.join(' ').concat(' liftoff!')
+   
+}
+
+
+
+
+//liftoff([6,5,4,1,2,3]) => '6 5 4 3 2 1 liftoff!'
+//liftoff([4,2,1,3] => '4 3 2 1 liftoff!')
