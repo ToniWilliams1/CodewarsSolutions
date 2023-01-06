@@ -1,0 +1,15 @@
+/*
+Given an array of integers (x), and a target (t), you must find out if any two consecutive numbers in the array sum to t. If so, remove the second number.
+*/
+function trouble(x, t){
+  //add nums to see if it eqauls tonce found, add them and see if it equals t
+  //if it does remove the second num
+  
+  for (let i = 0; i < x.length-1; i++){
+    if (x[i] + x[i+1] === t){
+      x.splice(i+1, 1)
+   i--
+  }
+    }
+  return x
+}
