@@ -1,0 +1,20 @@
+/*
+Given a string made up of letters a, b, and/or c, switch the position of letters a and b (change a to b and vice versa). Leave any incidence of c untouched.
+*/
+
+function switcheroo(x){
+  //loop through
+  //find a's, switch to b
+  //find b's , switch to c
+  //return
+  
+  let str = x.split('')
+for (let i = 0; i < str.length; i++){
+  if (str[i] == 'a'){
+    str[i] = 'b'
+  } else if (str[i] === 'b'){
+    str[i] = 'a';
+  }
+}
+  return str.join("")
+}
