@@ -1,0 +1,18 @@
+/*Reverse every other word in a given string, then return the string. Throw away any leading or trailing whitespace, while ensuring there is exactly one space between each word. Punctuation marks should be treated as if they are a part of the word in this kata.
+*/
+
+  //WRITE SOME MAGIC
+  //loop through 
+  //grab every other word
+  //reverse that word
+  //rrmove whitespace
+  
+  let res = []
+  let string = str.split(' ')
+    if (str.length === 0){
+      return ''
+    } else {
+        for (let i = 1; i < string.length; i+=2){
+   string[i] = string[i].split('').reverse().join('')
+  }
+    }
