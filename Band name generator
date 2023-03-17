@@ -1,0 +1,33 @@
+/*
+My friend wants a new band name for her band. She like bands that use the formula: "The" + a noun with the first letter capitalized, for example:
+
+"dolphin" -> "The Dolphin"
+
+However, when a noun STARTS and ENDS with the same letter, she likes to repeat the noun twice and connect them together with the first and last letter, combined into one word (WITHOUT "The" in front), like this:
+
+"alaska" -> "Alaskalaska"
+
+Complete the function that takes a noun as a string, and returns her preferred band name written as a string.
+
+
+*/
+
+
+function bandNameGenerator(str) {
+  // Happy coding
+  //parameter => string
+  ////return another string
+  //
+  
+  //check if the first letter of the string is the same as the last letter of the string - lastIndexOf
+  //if same, then we want to repear word teice and connect - splice, repeat
+  //if not same, use concatenation, splice to capitalize first letter
+  
+  let lastChar = str.charAt(str.length - 1)
+
+  if (str[0] === lastChar){
+    return `${str[0].toUpperCase()}${str.slice(1)}${str.slice(1, str.length)}`
+  }
+  else {
+    return `The ${str[0].toUpperCase()}${str.slice(1)}`
+  }
