@@ -1,0 +1,21 @@
+/*
+An array is given with palindromic and non-palindromic numbers. A palindromic number is a number that is the same from a reversed order. For example 122 is not a palindromic number, but 202 is one.
+
+Your task is to write a function that returns an array with only 1s and 0s, where all palindromic numbers are replaced with a 1 and all non-palindromic numbers are replaced with a 0.
+*/
+
+function convertPalindromes(numbers) {
+  //CHECK IF NUM in array is palindrome
+  //if it is a palindrome, turn it into a 1
+  //if not turn it into a 0
+  
+  let res = []
+for (let i = 0; i < numbers.length; i++){
+if (numbers[i] == numbers[i].toString().split('').reverse().join('')){
+  res.push(1)
+} else {
+  res.push(0)
+}
+}
+  return res
+};
